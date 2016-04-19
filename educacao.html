@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="css/educacao.css">
+    <link rel="stylesheet" type="text/css" href="css/styles2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1 col-xs-2">
+                <img src="images/kamona_logo_snome.png" class="kamona-logo">
+            </div>
+            <div class="col-xs-4">
+                <form href="#" class="search-user">
+                    <input type="text" placeholder="Procurar" class="top-bar-input" id="procuraUsuario"/>
+                </form>
+                <div class = "categories-title-images"><img src="images/educacao-title.png" class = "categories-title-images"></div>
+            </div>
+            <div class="col-xs-3 hidden-xs">
+                <div class = "header-categories-list">
+                    <ul>
+                        <li><a>Segurança</a></li>
+                        <li><a>Meio Ambiente</a></li>
+                        <li><a>Política</a></li>
+                        <li><a>Desigualdade Social</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-1 col-xs-2">
+                <img class = "header-profile-picture" src="images/brunin.jpg">
+            </div>
+            <div class="col-sm-3 col-xs-4">
+                <div class="user-information-div">
+                    <p class = "user-information">Bruno Braga</p>
+                    <p class = "user-information">Desde: 04/2016</p>
+                    <input type="image" src="images/settings-icon.png" id="settings-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div id = "educacao-questions-section">
+    <div class="categories-topics">
+        <div class="create-topic-form">
+                <h3>Create your own discussion on this Matter</h3>
+                <h4>What is your solution</h4>
+
+                <form href="#" class="comentario-form">
+                    <input type="text" placeholder="Title" class="title-question-form" />
+                    <br/>
+            <textarea name="comment" class="question-form">
+            </textarea>
+                    <br/>
+                    <button type="submit" class="ask-question-button">Submit</button>
+                </form>
+        </div>
+      <div class="topics-list">
+        <div class="container">
+             <div class = "row">
+                <div class="col-md-2">
+                    <h3>34</h3>
+                    <p>votes</p>
+                </div>
+                <div class="col-md-2">
+                    <h3>56</h3>
+                    <p>views</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><a>What do you think about public education?</a></h3>
+                    <p class = "topic-author">Created by: Fernando Beletti, March 2016</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="col-md-2">
+                    <h3>2</h3>
+                    <p>votes</p>
+                </div>
+                <div class="col-md-2">
+                    <h3>45</h3>
+                    <p>views</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><a>Should full time public schools be added on our education?</a></h3>
+                    <p class = "topic-author">Created by: Paulo Braga, may 2016</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="col-md-2">
+                    <h3>99</h3>
+                    <p>votes</p>
+                </div>
+                <div class="col-md-2">
+                    <h3>87</h3>
+                    <p>views</p>
+                </div>
+                <div class="col-md-4">
+                    <h3><a>Political parties positions were added into public school books!</a></h3>
+                    <p class = "topic-author">Created by: Bruna Surfistinha, August 2016</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/categories-js.js"></script>
+</body>
+</html>

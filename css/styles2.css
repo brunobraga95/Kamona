@@ -1,0 +1,25 @@
+.create-topic-form h3{
+    text-align: center;
+}
+.create-topic-form h4{
+    text-align: center;
+}
+.create-topic-form .question-form{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 6px;
+    height: 100px;
+}
+.create-topic-form .title-question-form{
+    width: 60%;
+    margin-left: 20%;
+}
+.create-topic-form .ask-question-button{
+    width: 10%;
+    margin-left: 45%;
+}
+.topic-author{
+    text-align: right;
+    font-size: 8px;
+}

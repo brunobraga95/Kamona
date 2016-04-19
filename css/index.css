@@ -1,0 +1,15 @@
+
+#header{
+    width: 55%;
+    padding-left: 45%;
+    padding-bottom: 1%;
+}
+.flag-images{
+    width: 50%;
+    height:auto;
+    float:left;
+}
+.categories-link{
+    text-align: center;
+    color:#202F66;
+}

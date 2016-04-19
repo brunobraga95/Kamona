@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kamona</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/signup-form.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+<header class = "top-bar">
+    <div class="top-bar-left">
+        <div class = "logo-content">
+           <img src="images/kamona_logo_snome.png" class="kamona-logo">
+        </div>
+    </div>
+    <div class="top-bar-center">
+        <form href="#" class="search-user">
+            <input type="text" placeholder="Procurar" class="top-bar-input" id="procuraUsuario"/>
+        </form>
+    </div>
+    <div class="top-bar-right" id= "top-right">
+        <img class = "user-photo photo_header" src="images/no-profile-picture.png">
+        <span class = "name last-name name_header"></span>
+        <span class = "name first-name name_header"></span>
+    </div>
+</header>
+
+<div id="header">
+    <input type="image" class = "flag-images" src="images/portugal-flag.png" alt="Submit">
+    <input type="image" class = "flag-images" src="images/uk-flag.png" alt="Submit">
+</div>
+    <div class="form">
+        <ul class="tab-group">
+            <li class="tab active"><a href="#signup">Sign Up</a></li>
+            <li class="tab"><a href="#login">Log In</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="signup">
+                <h1>Sign Up for Free</h1>
+
+                <form action="/" method="post">
+
+                    <div class="top-row">
+                        <div class="field-wrap">
+                            <label>
+                                First Name<span class="req">*</span>
+                            </label>
+                            <input type="text" required autocomplete="off" id="first-name" />
+                        </div>
+
+                        <div class="field-wrap">
+                            <label>
+                                Last Name<span class="req" >*</span>
+                            </label>
+                            <input type="text"required autocomplete="off" id="last-name"/>
+                        </div>
+                    </div>
+
+                    <div class="field-wrap">
+                        <label>
+                            Email Address<span class="req" >*</span>
+                        </label>
+                        <input type="email"required autocomplete="off" id="user-email"/>
+                    </div>
+
+                    <div class="field-wrap">
+                        <label>
+                            Password<span class="req">*</span>
+                        </label>
+                        <input type="password"required autocomplete="off" id="user-password"/>
+                    </div>
+
+                    <button type="submit" class="button button-block" id = "signup-button"/>Get Started</button>
+
+                </form>
+
+            </div>
+
+            <div id="login">
+                <h1>Welcome Back!</h1>
+                <form action="/" method="post">
+
+                    <div class="field-wrap">
+                        <label>
+                            Email Address<span class="req">*</span>
+                        </label>
+                        <input type="email"required autocomplete="off" id = "login-user-email"/>
+                    </div>
+
+                    <div class="field-wrap">
+                        <label>
+                            Password<span class="req">*</span>
+                        </label>
+                        <input type="password"required autocomplete="off" id = "login-user-password"/>
+                    </div>
+
+                    <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+                    <button class="button button-block" id="login-button"/>Log In</button>
+                    <h3>OR</h3>
+                </form>
+                <button class="button-facebook button-block" id="facebook-login-button"/>Facebook</button>
+            </div>
+
+        </div><!-- tab-content -->
+    </div>
+    <!-- /form -->
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-sm-4">
+                <input href="educacao.html" type="image" src="images/educacao.jpg" class="categories-images">
+                <a href="educacao.html" class = "categories-link">Educação</a>
+            </div>
+
+
+            <div class = "col-sm-4">
+                <input type="image" src="images/congresso_nacional.jpg" class="categories-images">
+                <a class = "categories-link">Política</a>
+            </div>
+
+
+
+            <div class = "col-sm-4">
+                <input type="image" src="images/meio_ambiente.jpg" class="categories-images">
+                <a class = "categories-link">Sustentabilidade</a>
+            </div>
+
+            <div class = "col-sm-4">
+                <input type="image" src="images/desigualdade-social.jpeg" class="categories-images">
+                <a class = "categories-link">Desigualdade</a>
+            </div>
+
+            <div class = "col-sm-4">
+                <input type="image" src="images/racismo.jpg" class="categories-images">
+                <a class = "categories-link">Racismo</a>
+            </div>
+
+            <div class = "col-sm-4">
+                <input type="image" src="images/seguranca-publica.jpg" class="categories-images">
+                <a class = "categories-link">Segurança Pública</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="footer-ex-left">
+        <div class="logo-content">
+            <img src="images/kamona_logo_snome.png" class="kamona-logo">
+        </div>
+    </div>
+    <div class="footer-left">
+        <a href="">Suporte</a><br>
+        <a href="">Privacidade</a><br>
+        <a href="">Segurança</a>
+    </div>
+
+    <div class="footer-right">
+        <a href="">Termos de Serviço</a><br>
+        <a href="">Políticas</a><br>
+        <a href="">Contate-nos!</a>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+<script src="js/signup-form.js"></script>
+</body>
+</html>
